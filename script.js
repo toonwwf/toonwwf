@@ -13,7 +13,7 @@ renderer.setSize(window.innerWidth, window.innerHeight);
 
 // mario
 const geometry = await GLTFLoader.loadGeometry('https://github.com/toonwwf/toonwwf-io/blob/main/mario.glb');
-const texture = new THREE.TextureLoader().load('mario.png');
+const texture = new THREE.TextureLoader().load('https://github.com/toonwwf/toonwwf-io/blob/main/mario.png');
 const material = new THREE.MeshPhongMaterial({ map: texture, shininess: 0 });
 const mesh = new THREE.Mesh(geometry, material);
 mesh.position.set(0,-1.5,0)
