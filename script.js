@@ -1,5 +1,5 @@
-import * as THREE from 'https://github.com/toonwwf/toonwwf-io/tree/main/node_modules/three';
-import GLTFLoader from 'https://github.com/toonwwf/toonwwf-io/tree/main/node_modules/gltfloader';
+import * as THREE from './node_modules/three';
+import GLTFLoader from './node_modules/gltfloader';
 
 // scene
 const scene = new THREE.Scene();
