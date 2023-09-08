@@ -9,7 +9,7 @@
         "vite": "^4.4.9"
     },
     "dependencies": {
-        "gltfloader": "./node_modules/gltfloader",
+        "gltfloader": "https://cdn.jsdelivr.net/npm/gltfloader@1.2.1",
         "three": "^0.143.0"
     },
     "author": "codeur de nuit"
